@@ -13,3 +13,4 @@
 
 <img width="989" alt="image" src="https://user-images.githubusercontent.com/94199007/212780935-32d60598-1233-4dee-91d8-acbd6afafc8c.png">
 
+## Filter pruning using criteria or learning. 
