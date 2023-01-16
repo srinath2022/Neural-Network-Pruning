@@ -4,6 +4,13 @@
 
 ## RL based pruning.  
 
+**Channel Pruning via Lookahead Search Guided Reinforcement Learning (WACV 2022)**.  
+[Paper](https://openaccess.thecvf.com/content/WACV2022/papers/Wang_Channel_Pruning_via_Lookahead_Search_Guided_Reinforcement_Learning_WACV_2022_paper.pdf).  
+*Abstract*
+>"Channel pruning has become an effective yet still chal- lenging approach to achieve compact neural networks. It aims to prune the optimal set of filters whose removal re- sults in minimal performance degradation of the slimmed network. Due to the prohibitively vast search space of fil- ter combinations, existing approaches usually use various criteria to estimate the filter importance while sacrificing some precision. Here we present a new approach to opti- mizing the filter selection in channel pruning with looka- head search guided reinforcement learning (RL). A neural network that takes as input filter-related features is trained with RL to prune the optimal sequence of filters and max- imize the performance of the remaining network. In addi- tion, we employ Monte Carlo tree search (MCTS) to pro- vide a lookahead search for filter selection, which increases the sample efficiency for the RL training. Experiments on MNIST, CIFAR-10, and ILSVRC-2012 validate the effec- tiveness of our approach compared to both traditional and automated existing channel pruning approaches."   
+
+<img width="802" alt="image" src="https://user-images.githubusercontent.com/94199007/212781625-98fae8dd-b243-4a89-847b-95127f0913d6.png">
+
 ## GAN based pruning.   
 
 **Towards Optimal Structured CNN Pruning via Generative Adversarial Learning (CVPR 2020)**.  
