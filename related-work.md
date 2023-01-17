@@ -4,6 +4,13 @@
 
 ## RL based pruning.  
 
+**AMC: AutoML for Model Compression and Acceleration on Mobile Devices (ECCV 2018)**.  
+[Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Yihui_He_AMC_Automated_Model_ECCV_2018_paper.pdf)
+*Abstract*   
+>"Model compression is an effective technique to efficiently deploy neural network models on mobile devices which have limited computation resources and tight power budgets. Conventional model compression techniques rely on hand-crafted features and require domain experts to explore the large design space trading off among model size, speed, and accuracy, which is usually sub-optimal and time-consuming. In this paper, we propose AutoML for Model Compression (AMC) which leverages reinforcement learning to efficiently sample the design space and can improve the model compression quality. We achieved state-of- the-art model compression results in a fully automated way without any human efforts. Under 4× FLOPs reduction, we achieved 2.7% better accuracy than the hand-crafted model compression method for VGG-16 on ImageNet. We applied this automated, push-the-button compression pipeline to MobileNet-V1 and achieved a speedup of 1.53× on the GPU (Titan Xp) and 1.95× on an Android phone (Google Pixel 1), with negligible loss of accuracy."   
+
+<img width="754" alt="image" src="https://user-images.githubusercontent.com/94199007/212791413-46ec99af-37a8-43e0-b057-ee86271d3bdb.png">  
+
 **Channel Pruning via Lookahead Search Guided Reinforcement Learning (WACV 2022)**.  
 [Paper](https://openaccess.thecvf.com/content/WACV2022/papers/Wang_Channel_Pruning_via_Lookahead_Search_Guided_Reinforcement_Learning_WACV_2022_paper.pdf).  
 *Abstract*
