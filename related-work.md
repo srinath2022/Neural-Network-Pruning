@@ -27,4 +27,11 @@
 
 <img width="989" alt="image" src="https://user-images.githubusercontent.com/94199007/212780935-32d60598-1233-4dee-91d8-acbd6afafc8c.png">
 
-## Filter pruning using criteria or learning. 
+## Others. 
+
+**Learning Filter Pruning Criteria for Deep Convolutional Neural Networks Acceleration (CVPR 2020)**.  
+[Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/He_Learning_Filter_Pruning_Criteria_for_Deep_Convolutional_Neural_Networks_Acceleration_CVPR_2020_paper.pdf).  
+*Abstract*.  
+>"In this paper, we propose Learning Filter Pruning Cri- teria (LFPC) to solve the above problems. Specifically, we develop a differentiable pruning criteria sampler. This sam- pler is learnable and optimized by the validation loss of the pruned network obtained from the sampled criteria. In this way, we could adaptively select the appropriate pruning cri- teria for different functional layers. Besides, when evaluat- ing the sampled criteria, LFPC comprehensively considers the contribution of all the layers at the same time. Exper- iments validate our approach on three image classification benchmarks. Notably, on ILSVRC-2012, our LFPC reduces more than 60% FLOPs on ResNet-50 with only 0.83% top-5 accuracy loss."   
+
+<img width="500" alt="image" src="https://user-images.githubusercontent.com/94199007/213033586-f614f327-519e-4423-a739-c6082182e02e.png">
