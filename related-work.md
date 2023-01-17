@@ -2,6 +2,11 @@
 
 ## Surveys.  
 
+[**Enable Deep Learning on Mobile Devices: Methods, Systems, and Applications (Journal in ACM)**](https://arxiv.org/pdf/2204.11786.pdf). 
+
+[**What is the State of Neural Network Pruning? (MLSys 2020)**](https://proceedings.mlsys.org/paper/2020/file/d2ddea18f00665ce8623e36bd4e3c7c5-Paper.pdf).  
+
+
 ## RL based pruning.  
 
 [**AMC: AutoML for Model Compression and Acceleration on Mobile Devices (ECCV 2018)**](https://openaccess.thecvf.com/content_ECCV_2018/papers/Yihui_He_AMC_Automated_Model_ECCV_2018_paper.pdf).   
