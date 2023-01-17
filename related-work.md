@@ -4,7 +4,7 @@
 
 ## RL based pruning.  
 
-**AMC: AutoML for Model Compression and Acceleration on Mobile Devices (ECCV 2018)** [Paper](https://openaccess.thecvf.com/content_ECCV_2018/papers/Yihui_He_AMC_Automated_Model_ECCV_2018_paper.pdf).   
+[**AMC: AutoML for Model Compression and Acceleration on Mobile Devices (ECCV 2018)**](https://openaccess.thecvf.com/content_ECCV_2018/papers/Yihui_He_AMC_Automated_Model_ECCV_2018_paper.pdf).   
 
 <details>
 <summary>More details</summary>
@@ -16,7 +16,7 @@
   
 </details>  
 
-**Channel Pruning via Lookahead Search Guided Reinforcement Learning (WACV 2022)** [Paper](https://openaccess.thecvf.com/content/WACV2022/papers/Wang_Channel_Pruning_via_Lookahead_Search_Guided_Reinforcement_Learning_WACV_2022_paper.pdf).  
+[**Channel Pruning via Lookahead Search Guided Reinforcement Learning (WACV 2022)**](https://openaccess.thecvf.com/content/WACV2022/papers/Wang_Channel_Pruning_via_Lookahead_Search_Guided_Reinforcement_Learning_WACV_2022_paper.pdf).  
 
 <details>
 <summary>More details</summary>
@@ -30,7 +30,7 @@
   
 ## GAN based pruning.   
 
-**Towards Optimal Structured CNN Pruning via Generative Adversarial Learning (CVPR 2020)** [Paper](https://openaccess.thecvf.com/content_CVPR_2019/papers/Lin_Towards_Optimal_Structured_CNN_Pruning_via_Generative_Adversarial_Learning_CVPR_2019_paper.pdf).  
+[**Towards Optimal Structured CNN Pruning via Generative Adversarial Learning (CVPR 2020)**](https://openaccess.thecvf.com/content_CVPR_2019/papers/Lin_Towards_Optimal_Structured_CNN_Pruning_via_Generative_Adversarial_Learning_CVPR_2019_paper.pdf).  
 
 <details>
 <summary>More details</summary>
@@ -44,7 +44,7 @@
   
 ## Others. 
 
-**Learning Filter Pruning Criteria for Deep Convolutional Neural Networks Acceleration (CVPR 2020)** [Paper](https://openaccess.thecvf.com/content_CVPR_2020/papers/He_Learning_Filter_Pruning_Criteria_for_Deep_Convolutional_Neural_Networks_Acceleration_CVPR_2020_paper.pdf).  
+[**Learning Filter Pruning Criteria for Deep Convolutional Neural Networks Acceleration (CVPR 2020)**](https://openaccess.thecvf.com/content_CVPR_2020/papers/He_Learning_Filter_Pruning_Criteria_for_Deep_Convolutional_Neural_Networks_Acceleration_CVPR_2020_paper.pdf).  
 
 <details>
 <summary>More details</summary>
