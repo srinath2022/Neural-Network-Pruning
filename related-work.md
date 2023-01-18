@@ -65,3 +65,12 @@
 
 </details>
   
+[**Importance Estimation for Neural Network Pruning (CVPR 2019)**](https://openaccess.thecvf.com/content_CVPR_2019/papers/Molchanov_Importance_Estimation_for_Neural_Network_Pruning_CVPR_2019_paper.pdf).  
+
+<details>
+<summary>More details</summary>
+  
+  *Method at High Level*.   
+  >"We define the importance as the squared change in loss induced by removing a specific filter from the network. Since comput- ing the exact importance is extremely expensive for large networks, we approximate it with a Taylor expansion (akin to [27]), resulting in a criterion computed from parameter gradients readily available during standard training. Our method is easy to implement in existing frameworks with minimal overhead."   
+  
+</details>
