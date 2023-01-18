@@ -2,7 +2,7 @@
 
 ## Surveys.  
 
-[**Enable Deep Learning on Mobile Devices: Methods, Systems, and Applications (Journal in ACM)**](https://arxiv.org/pdf/2204.11786.pdf). 
+[**Enable Deep Learning on Mobile Devices: Methods, Systems, and Applications (Journal in ACM 2022)**](https://arxiv.org/pdf/2204.11786.pdf). 
 
 [**What is the State of Neural Network Pruning? (MLSys 2020)**](https://proceedings.mlsys.org/paper/2020/file/d2ddea18f00665ce8623e36bd4e3c7c5-Paper.pdf).  
 
@@ -46,6 +46,10 @@
 <img width="989" alt="image" src="https://user-images.githubusercontent.com/94199007/212780935-32d60598-1233-4dee-91d8-acbd6afafc8c.png">
 
 </details>
+  
+## Pruning Theory
+
+[**The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks**](https://arxiv.org/pdf/1803.03635.pdf).  
   
 ## Others. 
 
