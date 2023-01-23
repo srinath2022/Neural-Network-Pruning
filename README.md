@@ -5,7 +5,7 @@ Exploring model compression algorithms and experimenting new ideas for NN prunin
 
 ## High Level Approaches   
 
-### 1 : Using GAN to learn distribution of 'Good Pruning Masks'   
+### 1 : [Using GAN to learn distribution of 'Good Pruning Masks'](approach1.md)
 
 Use existing algorithms like IMP to generate various masks(which achieve a reasonable test accuracy) for channel pruning in a given network. Train a GAN which could learn the distribution of these good enough masks.
 
