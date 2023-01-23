@@ -7,7 +7,7 @@ Exploring model compression algorithms and experimenting new ideas for NN prunin
 
 ### 1 : Using GAN to learn distribution of 'Good Pruning Masks'   
 
-... To Be Completed.   
+Use existing algorithms like IMP to generate various masks(which achieve a reasonable test accuracy) for channel pruning in a given network. Train a GAN which could learn the distribution of these good enough masks.
 
 ### 2 : Enhancement to AutoML, by using 'Learned Filter Pruning Criteria' instead of mere magnitude based criteria.   
 
