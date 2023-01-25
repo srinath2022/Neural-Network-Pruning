@@ -15,3 +15,4 @@ The idea is essentially to combine two papers, [Learning Filter Pruning Criteria
 
 ## *Useful Links*.  
 1. https://pytorch.org/tutorials/intermediate/pruning_tutorial.html.  
+2. https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html.  
