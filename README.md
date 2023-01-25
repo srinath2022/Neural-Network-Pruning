@@ -13,5 +13,5 @@ Use existing algorithms like IMP to generate various masks(which achieve a reaso
 
 The idea is essentially to combine two papers, [Learning Filter Pruning Criteria for Deep Convolutional Neural Networks Acceleration (CVPR 2020)](https://openaccess.thecvf.com/content_CVPR_2020/papers/He_Learning_Filter_Pruning_Criteria_for_Deep_Convolutional_Neural_Networks_Acceleration_CVPR_2020_paper.pdf) and [AMC: AutoML for Model Compression and Acceleration on Mobile Devices (ECCV 2018)](https://openaccess.thecvf.com/content_ECCV_2018/papers/Yihui_He_AMC_Automated_Model_ECCV_2018_paper.pdf).   
 
-*Useful Links*.  
+## *Useful Links*.  
 1. https://pytorch.org/tutorials/intermediate/pruning_tutorial.html.  
