@@ -23,7 +23,6 @@ Best model accuracy, pruned accuracy and retrained accuracy at every level of sp
 Channels are selected at random and pruned until the desired sparsity is reached. Similar to above, pruning and retraining is performed for all sparsity levels ranging from 0-95% in steps of 5. The experiment is repeated twice to observe for any variations.
 
 ![Unknown](https://user-images.githubusercontent.com/94199007/221708640-3052e366-2775-412f-bd2b-e4d81d225a29.png)
-   
 ![Unknown-3](https://user-images.githubusercontent.com/94199007/221708735-62eef9f3-19d4-46c2-bfc1-636760f5c814.png)
 
 
