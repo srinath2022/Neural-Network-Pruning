@@ -51,8 +51,7 @@ To further strangthen the reasoning, a modified version of random pruning is imp
 ![Unknown-9](https://user-images.githubusercontent.com/94199007/221713888-4d96d0e0-fb46-46db-8c4a-3b1bd8207da8.png)
 ![Unknown-10](https://user-images.githubusercontent.com/94199007/221713904-f3d90e3b-79ef-4336-aed6-d5d7fdcd04f1.png)
    
-**From the above experiments, it is clear that any randomly pruned mask of LeNet5 which could retain atleast one channel in each layer could do the best job on MNIST and therefore it looks like any mask is equally good in this case and it does not make much sense to use them for training in GAN.
-**
+**From the above experiments, it is clear that any randomly pruned mask of LeNet5 which could retain atleast one channel in each layer could do the best job on MNIST and therefore it looks like any mask is equally good in this case and it does not make much sense to use them for training in GAN.**
 
 ### TO-DO  
 1. Perform similar experiments for ResNet on ImageNet data.   
