@@ -31,7 +31,7 @@ To check how random pruning is performing, a total of 20 trials of pruning (with
 ![Unknown-4](https://user-images.githubusercontent.com/94199007/221708911-53a5eaaf-a580-4ab6-9447-7edb5fc9b716.png)
 
 #### Observations   
-From the graphs, it can be seen that the retrained accuracy is either reaching ~1(best model) or is stuck at the pruned accuracy. It might be possible that during pruning, the criteria might be pruning all the channels of a given layer and hence unable to improve any further.   
+From the graphs, it can be seen that the retrained accuracy is either reaching ~1(best model) or is stuck at the pruned accuracy. It might be possible that during pruning, the criteria might be pruning all the channels of one of the layers and hence unable to improve any further.   
 
 To confirm this reasoning, the above experiments are performed again by keeping track of layer wise sparsities at every step/trial. The figures are shown below.   
 
