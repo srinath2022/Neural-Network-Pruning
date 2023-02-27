@@ -40,12 +40,22 @@ Global Channel Pruning - selecting channels at random.
 ![Unknown-5](https://user-images.githubusercontent.com/94199007/221711567-23a96c72-c32b-4be8-8dd8-ee61d31799f4.png)
 ![Unknown-6](https://user-images.githubusercontent.com/94199007/221711598-d404c60e-2e5e-4c1d-8c65-41504d9e05fa.png)
 
-
 Global Channel Pruning - selecting channels at random, 20 trials of pruning (with 90% sparsity).  
 
 ![Unknown-7](https://user-images.githubusercontent.com/94199007/221711732-69876cd7-278f-46d2-a375-a008d58d0aea.png)
 ![Unknown-8](https://user-images.githubusercontent.com/94199007/221711764-1f1f6077-a63c-4dc6-99a4-bcfb48266f80.png)
 
+A clear correlation can be seen from the above plots, whenever one of the layers is completely pruned, the model could not improve any further.
+To further strangthen the reasoning, a modified version of random pruning is implemented such that at least one channel in each layer is preserved. The result of 20 trials (with 90% sparsity) is presented below, indicating that if there's atleast one channel in every layer, the retraining gives near best performance.
+
+![Unknown-9](https://user-images.githubusercontent.com/94199007/221713888-4d96d0e0-fb46-46db-8c4a-3b1bd8207da8.png)
+![Unknown-10](https://user-images.githubusercontent.com/94199007/221713904-f3d90e3b-79ef-4336-aed6-d5d7fdcd04f1.png)
+   
+**From the above experiments, it is clear that any randomly pruned mask of LeNet5 which could retain atleast one channel in each layer could do the best job on MNIST and therefore it looks like any mask is equally good in this case and it does not make much sense to use them for training in GAN.
+**
+
+### TO-DO  
+1. Perform similar experiments for ResNet on ImageNet data.   
 
 ## Part 2 - Implement a GAN which could take in a given Network as parameter and generate probablistic mapping of channels for pruning     
 
