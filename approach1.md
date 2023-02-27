@@ -31,7 +31,22 @@ To check how random pruning is performing, a total of 20 trials of pruning (with
 
 ![Unknown-4](https://user-images.githubusercontent.com/94199007/221708911-53a5eaaf-a580-4ab6-9447-7edb5fc9b716.png)
 
-The experiment is repeated twice to observe for any variations.   
+#### Observations   
+From the graphs, it can be seen that the retrained accuracy is either reaching ~1(best model) or is stuck at the pruned accuracy. It might be possible that during pruning, the criteria might be pruning all the channels of a given layer and hence unable to improve any further.   
+
+To confirm this reasoning, the above experiments are performed again by keeping track of layer wise sparsities at every step/trial. The figures are shown below.   
+
+Global Channel Pruning - selecting channels at random.   
+
+![Unknown-5](https://user-images.githubusercontent.com/94199007/221711567-23a96c72-c32b-4be8-8dd8-ee61d31799f4.png)
+![Unknown-6](https://user-images.githubusercontent.com/94199007/221711598-d404c60e-2e5e-4c1d-8c65-41504d9e05fa.png)
+
+
+Global Channel Pruning - selecting channels at random, 20 trials of pruning (with 90% sparsity).  
+
+![Unknown-7](https://user-images.githubusercontent.com/94199007/221711732-69876cd7-278f-46d2-a375-a008d58d0aea.png)
+![Unknown-8](https://user-images.githubusercontent.com/94199007/221711764-1f1f6077-a63c-4dc6-99a4-bcfb48266f80.png)
+
 
 ## Part 2 - Implement a GAN which could take in a given Network as parameter and generate probablistic mapping of channels for pruning     
 
