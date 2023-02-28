@@ -2,7 +2,7 @@
 
 ## Part 1 - Create a pipeline to generate mask using standard methods and retain good masks  
 Randomise existing pruning techniques a little to generate various masks for the same initialization and pruning ratio.   
-Colab - https://colab.research.google.com/drive/18u5n-ykZJrDqf1vYiPILnpwFSFf2gzjO?usp=sharing.  
+Colab - https://colab.research.google.com/drive/18u5n-ykZJrDqf1vYiPILnpwFSFf2gzjO?usp=sharing.    
    
 As a starting point, I have selected the **LeNet5** model and **MNIST** datset for the experiments.   
 The following pruning techniques were explored.   
