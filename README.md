@@ -12,8 +12,13 @@ Use existing algorithms like IMP to generate various masks(which achieve a reaso
    
 ### 2 : Enhancement to AutoML, by using 'Learned Filter Pruning Criteria' instead of mere magnitude based criteria.   
 
-The idea is essentially to combine two papers, [Learning Filter Pruning Criteria for Deep Convolutional Neural Networks Acceleration (CVPR 2020)](https://openaccess.thecvf.com/content_CVPR_2020/papers/He_Learning_Filter_Pruning_Criteria_for_Deep_Convolutional_Neural_Networks_Acceleration_CVPR_2020_paper.pdf) and [AMC: AutoML for Model Compression and Acceleration on Mobile Devices (ECCV 2018)](https://openaccess.thecvf.com/content_ECCV_2018/papers/Yihui_He_AMC_Automated_Model_ECCV_2018_paper.pdf).   
+The idea is essentially to combine two papers, [Learning Filter Pruning Criteria for Deep Convolutional Neural Networks Acceleration (CVPR 2020)](https://openaccess.thecvf.com/content_CVPR_2020/papers/He_Learning_Filter_Pruning_Criteria_for_Deep_Convolutional_Neural_Networks_Acceleration_CVPR_2020_paper.pdf) and [AMC: AutoML for Model Compression and Acceleration on Mobile Devices (ECCV 2018)](https://openaccess.thecvf.com/content_ECCV_2018/papers/Yihui_He_AMC_Automated_Model_ECCV_2018_paper.pdf). 
 
 ## *Useful Links*.  
 1. https://pytorch.org/tutorials/intermediate/pruning_tutorial.html.  
 2. https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html.  
+
+# NN Pruning and Dataset Distillation   
+
+https://arxiv.org/pdf/2006.05929.pdf   
+https://openaccess.thecvf.com/content/CVPR2022/papers/Cazenavette_Dataset_Distillation_by_Matching_Training_Trajectories_CVPR_2022_paper.pdf   
