@@ -50,6 +50,9 @@
 ## Pruning Theory
 
 [**The Lottery Ticket Hypothesis: Finding Sparse, Trainable Neural Networks**](https://arxiv.org/pdf/1803.03635.pdf).  
+
+## Efficient Pruning   
+[Neural Network Pruning With Residual Connections and Limited Data](https://openaccess.thecvf.com/content_CVPR_2020/papers/Luo_Neural_Network_Pruning_With_Residual-Connections_and_Limited-Data_CVPR_2020_paper.pdf)
   
 ## Others. 
 
